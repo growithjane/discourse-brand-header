@@ -1,32 +1,63 @@
-.b-header {
-  .title {
-    padding: 0.5em;
-    a {
-      color: var(--tertiary);
-    }
-    &:visited {
-      color: var(--tertiary);
-    }
-  }
+// .b-header {
+//   .title {
+//     padding: 0.5em;
+//     a {
+//       color: var(--tertiary);
+//     }
+//     &:visited {
+//       color: var(--tertiary);
+//     }
+//   }
 
-  .menu-panel li a.widget-link {
-    width: auto;
-  }
+//   .menu-panel li a.widget-link {
+//     width: auto;
+//   }
 
-  > ul.icons {
-    margin: 0 10px 0 0;
-  }
-}
+//   > ul.icons {
+//     margin: 0 10px 0 0;
+//   }
+// }
 
-#toggle-hamburger-brand-menu {
-  margin: 0;
+// #toggle-hamburger-brand-menu {
+//   margin: 0;
 
-  .d-icon {
-    font-size: 1.143em;
-    vertical-align: middle;
-  }
-}
+//   .d-icon {
+//     font-size: 1.143em;
+//     vertical-align: middle;
+//   }
+// }
 
 .profiler-results {
   display: none;
 }
+
+
+// Custom GWJ Mobile menu start
+.b-header .menu-panel {
+  position: fixed;
+  top: 80px;
+  z-index: 9999;
+  left: 0;
+  width: 90%;
+  padding: 5%;
+  border:none;
+  border-top: 3px solid #4caf50;
+  background-color: #000000;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  hr {
+    display: none
+  }
+  .menu-links.columned li {
+    padding: 8px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    width: 100%;
+    a{
+      color: rgba(255,255,255,.9);
+      font-size: 16px;
+      font-weight:400;
+    }
+  }
+}
+// Custom GWJ Movile menu end
