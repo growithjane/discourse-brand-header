@@ -36,6 +36,10 @@
 .b-header {
   // display: none;
 
+  height: 100%;
+  line-height: 50px;
+  width: 60px;
+  
   .menu-panel {
     position: fixed;
     top: 80px;
@@ -50,9 +54,6 @@
     -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
     box-shadow: 0 2px 5px rgba(0,0,0,.1);
 
-    height: 100%;
-    line-height: 50px;
-    width: 60px;
     hr {
       display: none
     }
