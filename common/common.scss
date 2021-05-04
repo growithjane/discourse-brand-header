@@ -5,7 +5,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;    
   width: 100%;
-  background-color: $secondary;
+  background-color: --secondary;
   height: 80px;
   margin-bottom: 0;
 
@@ -17,10 +17,10 @@
     float: left;
     margin-right: 24px;
     a {
-      color: $primary;
+      color: --primary;
     }
     &:visited {
-      color: $primary;
+      color: --primary;
     }
     .rtl & {
       float: right;
@@ -52,18 +52,18 @@
       line-height: 40px;
       font-size:14px;
       &:hover {
-        // color: $quaternary;
+        // color: --quaternary;
         opacity: .7;
-        // background-color: dark-light-diff($quaternary, $tertiary, -70%, 70%);
+        // background-color: dark-light-diff(--quaternary, --tertiary, -70%, 70%);
       }
       &.active > a, > a.active {
-        color: $tertiary;
-        // background-color: $quaternary;
+        color: --tertiary;
+        // background-color: --quaternary;
       }
     }
-    > li:last-child > a{
-        color: $tertiary;
-    }
+    // > li:last-child > a{
+    //     color: --tertiary;
+    // }
   }
 
   .panel {
@@ -111,7 +111,7 @@
   .panel > ul.icons {
     float: right;
     a, [class^="fa fa-"] {
-      color: $secondary;
+      color: --secondary;
       .d-icon {
         color: #4caf50;
         width: 1.3em;
