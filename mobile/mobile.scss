@@ -33,31 +33,34 @@
 
 
 // Custom GWJ Mobile menu start
-.b-header .menu-panel {
-  position: fixed;
-  top: 80px;
-  z-index: 9999;
-  left: 0;
-  width: 90%;
-  padding: 5%;
-  border:none;
-  border-top: 3px solid #4caf50;
-  background-color: #000000;
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1);
-  -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
-  box-shadow: 0 2px 5px rgba(0,0,0,.1);
-  hr {
-    display: none
-  }
-  .menu-links.columned li {
-    padding: 8px;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    width: 100%;
-    a{
-      color: rgba(255,255,255,.9);
-      font-size: 16px;
-      font-weight:400;
+.b-header {
+  display: none;
+  .menu-panel {
+    position: fixed;
+    top: 80px;
+    z-index: 9999;
+    left: 0;
+    width: 90%;
+    padding: 5%;
+    border:none;
+    border-top: 3px solid #4caf50;
+    background-color: #000000;
+    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+    hr {
+      display: none
+    }
+    .menu-links.columned li {
+      padding: 8px;
+      border-bottom: 1px solid rgba(255,255,255,.3);
+      width: 100%;
+      a{
+        color: rgba(255,255,255,.9);
+        font-size: 16px;
+        font-weight:400;
+      }
     }
   }
+  // Custom GWJ Movile menu end
 }
-// Custom GWJ Movile menu end
